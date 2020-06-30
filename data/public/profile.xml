@@ -1,31 +1,27 @@
 <profile>
     <about>
-        <p>
-            Hi! Thanks for stopping by. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </p>
-        <p>
-            This is another paragraph. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.
-        </p>
+        <p>Hello, and thanks for stopping by! I currently work as a content writer, which involves writing articles about data security auditing. In my spare time I research and develop decentralised applications and technologies which I hope will give people more independence.</p>
+        <p>This CV is stored as an XML file, which can read by any application, regardless of where it is located. Right now, the file is stored on my Github account, however, I plan to introduce a way for users to store their CV on their own device, and serve the data directly. This means that employers can search for employees without the need for a middle man.</p>
+        <p>Once users have control over their data, we can start to build sophisticated applications that don&#39;t store any data. Not only will this be more secure, but it also means that users will no longer need to register and login to applications, as all data will be stored in their POD (Personal Online Datastore). On top of this framework, we can build social media and dating applications, and even large-scale governance applications.</p>
+        <p>For more information that about the sort of projects that I am working on, please checkout my <a href="https://www.youtube.com/channel/UCZrmYllQdDgK0kEicsKiFng">YouTube channel</a>.</p>
     </about>
-    <profile-url>http://bob.localhost/bob/</profile-url>
+    <profile-url>https://glensimister.github.io/cv/</profile-url>
     <photo-url>photo.jpg</photo-url>
-    <name>Bob Smith</name>
-    <role>Front-End Developer</role>
-    <dob>01/10/1981</dob>
-    <gender>Male</gender>
-    <address>
-            <post-code>XYZ123</post-code>
+    <name>Glen Simister</name>
+    <role>Writer, Designer, Developer</role>
+    <dob>10/08/1979</dob>
+    <gender>Male</gender> <address>
+            <post-code>EX4</post-code>
             <city>Exeter</city>
             <region>Devon</region>
             <country>UK</country>
         </address>
-    <phone>+44 7738 111111</phone>
-    <email>bob@mail.com</email>
-    <website>http://website.com</website>
+    <phone>(+44) 07561179745</phone>
+    <email>glen_simister@yahoo.co.uk</email>
+    <website>N/A</website>
     <employment-status>Employed</employment-status>
     <photos>
-        <url>photo.jpg</url>
-        <url>photo.jpg</url>
-        <url>photo.jpg</url>
+        <url>photo3.jpg</url>
+        <url>photo4.jpg</url>
     </photos>
 </profile>

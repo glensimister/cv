@@ -14,8 +14,7 @@
     <link rel="stylesheet" href="https://unpkg.com/@jsweb/font-awesome-base64" />
     <script src="index.js"></script>
     <script>
-        $(document).ready(function() {
-
+        $(document).ready(function () {
             let urlParams = new URLSearchParams(window.location.search);
             let page = urlParams.get('page');
             if (!page) page = 'home';
@@ -23,12 +22,13 @@
             $(`.${page}`).addClass('active');
             $('.page').hide();
             $(`#${page}`).show();
-            $(document).on('click touchstart', '.link', function(e) {
+            $(document).on('click touchstart', '.link', function (e) {
                 e.preventDefault;
                 page = this.dataset.page;
                 if (page === 'home') {
                     window.history.replaceState(null, null, window.location.pathname);
-                } else {
+                }
+                else {
                     window.history.pushState({}, document.title, `?page=${page}`);
                 }
                 $('nav').find('.active').removeClass('active');
@@ -37,7 +37,6 @@
                 $(`#${page}`).show();
             });
         });
-
     </script>
 </head>
 
@@ -82,7 +81,6 @@
                 <div class="flip-left">Get your free CV <a target="_blank" href="https://github.com/dvo/profile">here</a> | <a target="_blank" href="/data/public/profile.xml">profile.xml</a></div>
             </section>
         </div>
-
         <div id="cv" class="page" style="display:none">
             <section class="fadeIn">
                 <details>
@@ -91,8 +89,7 @@
                         <div></div>
                         <div><i class="fa fa-plus"></i></div>
                     </summary>
-                    <section class="about fadeIn">
-                    </section>
+                    <section class="about fadeIn"> </section>
                 </details>
                 <div class="spacer-15px"></div>
                 <details>
@@ -101,8 +98,7 @@
                         <div></div>
                         <div><i class="fa fa-plus"></i></div>
                     </summary>
-                    <section class="basic-info fadeIn">
-                    </section>
+                    <section class="basic-info fadeIn"> </section>
                 </details>
                 <div class="spacer-15px"></div>
                 <details>
@@ -122,8 +118,7 @@
                         <div></div>
                         <div><i class="fa fa-plus"></i></div>
                     </summary>
-                    <section class="work-history fadeIn">
-                    </section>
+                    <section class="work-history fadeIn"> </section>
                 </details>
                 <div class="spacer-15px"></div>
                 <details>
@@ -132,17 +127,16 @@
                         <div></div>
                         <div><i class="fa fa-plus"></i></div>
                     </summary>
-                    <section class="education fadeIn">
-                    </section>
+                    <section class="education fadeIn"> </section>
                 </details>
             </section>
         </div>
         <div id="photos" class="page fadeIn" style="display:none">
-            <section class="photos-container">
-            </section>
+            <section class="photos-container"> </section>
         </div>
         <div id="contact" class="page fadeIn" style="display:none">
             <section>
+                <p>Sorry, the contact form is currently disabled, please contact me at glen_simister@yahoo.co.uk</p>
                 <input id="from" class="form-control" placeholder="Email address...">
                 <div class="spacer-15px"></div>
                 <input id="subject" class="form-control" placeholder="Subject...">
