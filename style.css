@@ -403,12 +403,10 @@ textarea {
     from {
         opacity: 0;
         transform: scale(0);
-        transform: rotate(-360deg);
     }
     to {
         opacity: 1;
         transform: scale(1);
-        transform: translateZ(0);
     }
 }
 
