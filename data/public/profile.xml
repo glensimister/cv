@@ -1,7 +1,7 @@
 <profile>
     <about>
         <p>Hello, and thanks for stopping by! I currently work as a content writer, which involves writing articles about data security auditing. In my spare time I research and develop decentralised applications and technologies which I hope will give people more independence.</p>
-        <p>This CV is stored as an XML file, which can read by any application, regardless of where it is located. Right now, the file is stored on my Github account, however, I plan to introduce a way for users to store their CV on their own device, and serve the data directly. This means that employers can search for employees without the need for a middle man.</p>
+        <p>This CV is stored as an XML file, which can be read by any application, regardless of where it is located. Right now, the file is stored on my Github account, however, I plan to introduce a way for users to store their CV on their own device, and serve the data directly. This means that employers can search for employees without the need for a middle man.</p>
         <p>Once users have control over their data, we can start to build sophisticated applications that don&#39;t store any data. Not only will this be more secure, but it also means that users will no longer need to register and login to applications, as all data will be stored in their POD (Personal Online Datastore). On top of this framework, we can build social media and dating applications, and even large-scale governance applications.</p>
         <p>For more information that about the sort of projects that I am working on, please checkout my <a href="https://www.youtube.com/channel/UCZrmYllQdDgK0kEicsKiFng">YouTube channel</a>.</p>
     </about>
