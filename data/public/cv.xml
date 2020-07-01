@@ -50,18 +50,5 @@
             </course-description>
             <grade>2:2</grade>
         </section>
-        <section>
-            <institution>Teignmouth Community College / Exeter College</institution>
-            <from>September 1991</from>
-            <to>July 1999</to>
-            <course-title>N/A</course-title>
-            <course-description>
-                <ul>
-                    <li>6 x GCSE’S at grades A – C (including Maths and English)</li>
-                    <li>1 x Advanced Level – Physical Education</li>
-                </ul>
-            </course-description>
-            <grade>N/A</grade>
-        </section>
     </education>
 </cv>
